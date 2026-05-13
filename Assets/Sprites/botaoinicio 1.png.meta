@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 6fde701119cf4624da6a32dd6773a028
+guid: 3d0d76d5b24884348bf398320d9b2fb8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2211210958307743566
-    second: lucinda_0
+      213: -666682462079670979
+    second: botaoinicio 1_0
+  - first:
+      213: 3971403473373610690
+    second: botaoinicio 1_1
+  - first:
+      213: 8122593765849387098
+    second: botaoinicio 1_2
+  - first:
+      213: -6157193125602872564
+    second: botaoinicio 1_3
+  - first:
+      213: -2597157567192936835
+    second: botaoinicio 1_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,17 +121,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lucinda_0
+      name: botaoinicio 1_0
       rect:
         serializedVersion: 2
-        x: 795
-        y: 33
-        width: 330
-        height: 1015
+        x: 423
+        y: 271
+        width: 1182
+        height: 792
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +153,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e47526da6accfae10800000000000000
-      internalID: 2211210958307743566
+      spriteID: d3522cd35d77fb6f0800000000000000
+      internalID: -666682462079670979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botaoinicio 1_1
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1059
+        width: 201
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2cf2aea624d1730800000000000000
+      internalID: 3971403473373610690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botaoinicio 1_2
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1061
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a505144aeff39b070800000000000000
+      internalID: 8122593765849387098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botaoinicio 1_3
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 65
+        width: 123
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03b6f679714d8aa0800000000000000
+      internalID: -6157193125602872564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botaoinicio 1_4
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 65
+        width: 94
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e4fb5f3fa05fbd0800000000000000
+      internalID: -2597157567192936835
       vertices: []
       indices: 
       edges: []
@@ -148,7 +261,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      lucinda_0: 2211210958307743566
+      botaoinicio 1_0: -666682462079670979
+      botaoinicio 1_1: 3971403473373610690
+      botaoinicio 1_2: 8122593765849387098
+      botaoinicio 1_3: -6157193125602872564
+      botaoinicio 1_4: -2597157567192936835
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
