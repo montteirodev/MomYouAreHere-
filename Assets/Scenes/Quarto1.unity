@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 309134661}
   - component: {fileID: 309134660}
   - component: {fileID: 309134659}
+  - component: {fileID: 309134664}
   m_Layer: 0
   m_Name: jogador1
   m_TagString: Player
@@ -344,7 +345,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 2.07, y: 8.51}
-    newSize: {x: 1, y: 1}
+    newSize: {x: 2.07, y: 8.51}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -405,7 +406,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.07, y: 8.51}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -419,8 +420,8 @@ Transform:
   m_GameObject: {fileID: 309134658}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.0362, y: -2.4, z: 0}
-  m_LocalScale: {x: 0.62901187, y: 0.48550484, z: 0.3304293}
+  m_LocalPosition: {x: -8.32, y: -2.06, z: 0}
+  m_LocalScale: {x: 0.69810265, y: 0.5388328, z: 0.3667237}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -438,6 +439,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!95 &309134664
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309134658}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 07a6fc43eff87764cbcd63901c4a690d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &331136253
 GameObject:
   m_ObjectHideFlags: 0
