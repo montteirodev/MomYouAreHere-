@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SoundController : MonoBehaviour
+public class Som : MonoBehaviour
 {
 [Header("Áudio ambiente")]
 public AudioClip somAmbiente;
