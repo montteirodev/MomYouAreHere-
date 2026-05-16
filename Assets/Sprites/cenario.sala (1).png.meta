@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 54901ccb2d0a74f4d9258da4f6fe3fc8
+guid: 6d1817c1a3ab5ed458b401d0adce03dd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2589669518416263620
-    second: cenario.sala_0
+      213: 8536828217608743568
+    second: cenario.sala (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,11 +109,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cenario.sala_0
+      name: cenario.sala (1)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c36442d2b45af0cd0800000000000000
-      internalID: -2589669518416263620
+      spriteID: 09aa91ba808e87670800000000000000
+      internalID: 8536828217608743568
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cenario.sala_0: -2589669518416263620
+      cenario.sala (1)_0: 8536828217608743568
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

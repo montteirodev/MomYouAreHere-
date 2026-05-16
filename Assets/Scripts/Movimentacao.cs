@@ -9,6 +9,8 @@ public class Movimentacao : MonoBehaviour
     private Animator anim; 
     public AudioClip somPassos;
     private AudioSource audioSource;
+    public float pitchMinimo = 0.5f;
+    public float pitchMaximo = 1.5f;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -69,6 +71,7 @@ public class Movimentacao : MonoBehaviour
 
     
       void Passos(){
+        audioSource.pitch = Random.Range(pitchMinimo, pitchMaximo);
         audioSource.Play();
        }
     
