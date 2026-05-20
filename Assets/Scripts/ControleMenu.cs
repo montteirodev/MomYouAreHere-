@@ -20,7 +20,7 @@ public class ControleMenu : MonoBehaviour
         
     }
     
-    public void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other) //detecta quando o jogador entra da area
     
     {
        if(other.CompareTag("Player")){

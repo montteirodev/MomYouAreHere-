@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class InteragirComCenario : MonoBehaviour
 {
 
-   
+    public string IdDaPorta;
     public KeyCode interacaoTecla = KeyCode.E; // troca de tecla no inspetor sem precisar mudar o codigo
     private bool jogadorNaArea; //controla se o jogador ta na range da porta
     
@@ -20,6 +20,9 @@ public class InteragirComCenario : MonoBehaviour
     // Update is called once per frame
     void Interact()
     {
+        SceneManager.LoadScene(nomeDaCena);
+        PlayerPrefs.SetString("UltimaPorta", IdDaPorta);
+        
         SceneManager.LoadScene(nomeDaCena);
         
     }
