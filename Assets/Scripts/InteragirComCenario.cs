@@ -9,6 +9,7 @@ public class InteragirComCenario : MonoBehaviour
     private bool jogadorNaArea; //controla se o jogador ta na range da porta
     
     public string nomeDaCena;
+    public string idDaPorta;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Update()
@@ -21,7 +22,8 @@ public class InteragirComCenario : MonoBehaviour
     void Interact()
     {
         SceneManager.LoadScene(nomeDaCena);
-        
+        PlayerPrefs.SetString("UltimaPorta", idDaPorta); //salva a ultima porta usada para a proxima cena
+        SceneManager.LoadScene(nomeDaCena);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

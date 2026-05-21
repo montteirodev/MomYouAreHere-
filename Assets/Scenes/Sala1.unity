@@ -892,7 +892,7 @@ Transform:
   m_GameObject: {fileID: 406335096}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.1479492, y: -0.004336357, z: -10}
+  m_LocalPosition: {x: 0.37454128, y: -0.004336357, z: -10}
   m_LocalScale: {x: 0.1, y: 0.7, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1619,6 +1619,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 426815399060270781, guid: c76770ebcf856954eb36fc2179e15d5a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.054128
+      objectReference: {fileID: 0}
+    - target: {fileID: 426815399060270781, guid: c76770ebcf856954eb36fc2179e15d5a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.81
       objectReference: {fileID: 0}
@@ -1662,7 +1666,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: porta1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8351073146020082122, guid: c76770ebcf856954eb36fc2179e15d5a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2050,7 +2055,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.96, y: -1.16, z: 0}
-  m_LocalScale: {x: 1.135605, y: 0.9039, z: 1}
+  m_LocalScale: {x: 1.135605, y: 1.054128, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2069,6 +2074,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteragirComCenario
   interacaoTecla: 101
   nomeDaCena: Quarto1
+  idDaPorta: Sala
 --- !u!114 &1977666795
 MonoBehaviour:
   m_ObjectHideFlags: 0
