@@ -603,7 +603,7 @@ Camera:
   far clip plane: 1000
   field of view: 80
   orthographic: 1
-  orthographic size: 4.68
+  orthographic size: 4.57
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -628,7 +628,7 @@ Transform:
   m_GameObject: {fileID: 1366794963}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3469133, y: -0.004336238, z: -10}
+  m_LocalPosition: {x: -2.542468, y: -0.11433625, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1024,7 +1024,7 @@ Transform:
   m_GameObject: {fileID: 1791854741}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0165, y: -0.025, z: 0}
+  m_LocalPosition: {x: -0.18, y: -0.025, z: 0}
   m_LocalScale: {x: 1.1068225, y: 0.8994383, z: 0.89665866}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1815,6 +1815,10 @@ PrefabInstance:
       value: CinemachineCamera
       objectReference: {fileID: 0}
     - target: {fileID: 3746360362193024937, guid: b39921284a6db52468798f71d6b207f5, type: 3}
+      propertyPath: Lens.OrthographicSize
+      value: 4.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 3746360362193024937, guid: b39921284a6db52468798f71d6b207f5, type: 3}
       propertyPath: Target.TrackingTarget
       value: 
       objectReference: {fileID: 276714695}
@@ -1885,7 +1889,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 426815399060270781, guid: c76770ebcf856954eb36fc2179e15d5a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.86
+      value: 7.73
       objectReference: {fileID: 0}
     - target: {fileID: 426815399060270781, guid: c76770ebcf856954eb36fc2179e15d5a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1925,7 +1929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5577414029510885694, guid: c76770ebcf856954eb36fc2179e15d5a, type: 3}
       propertyPath: IdDaPorta
-      value: portaSala
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8220566351540806443, guid: c76770ebcf856954eb36fc2179e15d5a, type: 3}
       propertyPath: m_Name
