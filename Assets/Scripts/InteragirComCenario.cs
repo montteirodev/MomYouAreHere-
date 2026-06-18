@@ -1,5 +1,7 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class InteragirComCenario : MonoBehaviour
 {
@@ -7,24 +9,32 @@ public class InteragirComCenario : MonoBehaviour
     public string IdDaPorta;
     public KeyCode interacaoTecla = KeyCode.E; // troca de tecla no inspetor sem precisar mudar o codigo
     private bool jogadorNaArea; //controla se o jogador ta na range da porta
-    
+    public GameObject telaPreta;
     public string nomeDaCena;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Update()
     {
-        if (jogadorNaArea && Input.GetKeyDown(interacaoTecla)){
+        if (jogadorNaArea && Input.GetKeyDown(interacaoTecla))
+        {
+            
             Interact();
+
         }
     }
     // Update is called once per frame
+
     void Interact()
     {
-        SceneManager.LoadScene(nomeDaCena);
+        telaPreta.SetActive(true);
         PlayerPrefs.SetString("UltimaPorta", IdDaPorta);
-        
+        StartCoroutine(TrocarCena());
+    }
+
+    IEnumerator TrocarCena()
+    {
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(nomeDaCena);
-        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
