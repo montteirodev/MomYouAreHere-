@@ -11,29 +11,38 @@ public class InteragirComCenario : MonoBehaviour
     private bool jogadorNaArea; //controla se o jogador ta na range da porta
     public GameObject telaPreta;
     public string nomeDaCena;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float tempoDeTransicao = 1f;
+    
     void Update()
     {
         if (jogadorNaArea && Input.GetKeyDown(interacaoTecla))
         {
             
-            Interact();
+            StartCoroutine(Interact());
 
         }
     }
-    // Update is called once per frame
+ 
 
-    void Interact()
+    IEnumerator Interact()
     {
-        telaPreta.SetActive(true);
+        Color cor = telaPreta.GetComponent<Image>().color;
+        telaPreta.gameObject.SetActive(true);
+        float tempo = 0f;
+        while (tempo < tempoDeTransicao)
+        {
+            cor.a = Mathf.Lerp(0f, 1f, tempo / tempoDeTransicao);
+            telaPreta.GetComponent<Image>().color = cor;
+            tempo += Time.deltaTime;
+
+            yield return null;
+        }
         PlayerPrefs.SetString("UltimaPorta", IdDaPorta);
-        StartCoroutine(TrocarCena());
+        TrocarCena();
     }
 
-    IEnumerator TrocarCena()
+    void TrocarCena()
     {
-        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(nomeDaCena);
     }
 

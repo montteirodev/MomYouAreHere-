@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: 3d0d76d5b24884348bf398320d9b2fb8
+guid: 24ef084b3f9691f4cbc64c19f212638c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -666682462079670979
-    second: botaoinicio 1_0
+      213: 556722388037626804
+    second: "bot\xE3o definitivo_0"
   - first:
-      213: 3971403473373610690
-    second: botaoinicio 1_1
+      213: -2594674498189442184
+    second: "bot\xE3o definitivo_1"
   - first:
-      213: 8122593765849387098
-    second: botaoinicio 1_2
+      213: 5119930344293752071
+    second: "bot\xE3o definitivo_2"
   - first:
-      213: -6157193125602872564
-    second: botaoinicio 1_3
+      213: -3349514449058570466
+    second: "bot\xE3o definitivo_3"
   - first:
-      213: -2597157567192936835
-    second: botaoinicio 1_4
+      213: -4879164947697641135
+    second: "bot\xE3o definitivo_4"
+  - first:
+      213: 1011817264000992279
+    second: "bot\xE3o definitivo_5"
+  - first:
+      213: 3757738866297394390
+    second: "bot\xE3o definitivo_6"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +64,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -138,13 +144,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: botaoinicio 1_0
+      name: "bot\xE3o definitivo_0"
       rect:
         serializedVersion: 2
-        x: 423
-        y: 271
-        width: 1182
-        height: 792
+        x: 284
+        y: 259
+        width: 1256
+        height: 817
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3522cd35d77fb6f0800000000000000
-      internalID: -666682462079670979
+      spriteID: 4bb6d71ff00e9b700800000000000000
+      internalID: 556722388037626804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botaoinicio 1_1
+      name: "bot\xE3o definitivo_1"
       rect:
         serializedVersion: 2
-        x: 775
-        y: 1059
-        width: 201
-        height: 21
+        x: 1628
+        y: 870
+        width: 31
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +181,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c2cf2aea624d1730800000000000000
-      internalID: 3971403473373610690
+      spriteID: 87347a38a4dddfbd0800000000000000
+      internalID: -2594674498189442184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botaoinicio 1_2
+      name: "bot\xE3o definitivo_2"
       rect:
         serializedVersion: 2
-        x: 790
-        y: 1061
+        x: 1571
+        y: 555
+        width: 14
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d5f568585ad0740800000000000000
+      internalID: 5119930344293752071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bot\xE3o definitivo_3"
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 544
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f53d5ea522481d0800000000000000
+      internalID: -3349514449058570466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bot\xE3o definitivo_4"
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 533
         width: 9
-        height: 6
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a505144aeff39b070800000000000000
-      internalID: 8122593765849387098
+      spriteID: 159d1fbb459b94cb0800000000000000
+      internalID: -4879164947697641135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botaoinicio 1_3
+      name: "bot\xE3o definitivo_5"
       rect:
         serializedVersion: 2
-        x: 819
-        y: 65
-        width: 123
-        height: 16
+        x: 1581
+        y: 507
+        width: 12
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c03b6f679714d8aa0800000000000000
-      internalID: -6157193125602872564
+      spriteID: 7140366d072ba0e00800000000000000
+      internalID: 1011817264000992279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botaoinicio 1_4
+      name: "bot\xE3o definitivo_6"
       rect:
         serializedVersion: 2
-        x: 941
-        y: 65
-        width: 94
-        height: 18
+        x: 1586
+        y: 479
+        width: 10
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,8 +291,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7e4fb5f3fa05fbd0800000000000000
-      internalID: -2597157567192936835
+      spriteID: 6d4d55ce69b262430800000000000000
+      internalID: 3757738866297394390
       vertices: []
       indices: 
       edges: []
@@ -251,7 +301,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -261,11 +311,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      botaoinicio 1_0: -666682462079670979
-      botaoinicio 1_1: 3971403473373610690
-      botaoinicio 1_2: 8122593765849387098
-      botaoinicio 1_3: -6157193125602872564
-      botaoinicio 1_4: -2597157567192936835
+      "bot\xE3o definitivo_0": 556722388037626804
+      "bot\xE3o definitivo_1": -2594674498189442184
+      "bot\xE3o definitivo_2": 5119930344293752071
+      "bot\xE3o definitivo_3": -3349514449058570466
+      "bot\xE3o definitivo_4": -4879164947697641135
+      "bot\xE3o definitivo_5": 1011817264000992279
+      "bot\xE3o definitivo_6": 3757738866297394390
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

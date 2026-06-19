@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3c13bc061a162c74eb0da1bf474b4153
+guid: ab96ebe4aee6c8d4ca559552325b896d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4978374101427047610
-    second: botaocontroles 1_0
+      213: -782221098900914797
+    second: crontroles definitivo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: botaocontroles 1_0
+      name: crontroles definitivo_0
       rect:
         serializedVersion: 2
-        x: 320
-        y: 224
-        width: 1353
-        height: 759
+        x: 288
+        y: 197
+        width: 1368
+        height: 656
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 643bf6d912349eab0800000000000000
-      internalID: -4978374101427047610
+      spriteID: 39df1301e0ef425f0800000000000000
+      internalID: -782221098900914797
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      botaocontroles 1_0: -4978374101427047610
+      crontroles definitivo_0: -782221098900914797
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
