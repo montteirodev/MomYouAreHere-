@@ -1017,11 +1017,15 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   m_LocalPosition: {x: 5.0351934, y: 1.3811638, z: 0}
 
   m_LocalPosition: {x: 6.6039724, y: 1.3811638, z: 0}
 
+=======
+  m_LocalPosition: {x: 6.6214795, y: 1.3811638, z: 0}
+>>>>>>> parent of 18ad66d (Transição Update)
 =======
   m_LocalPosition: {x: 6.6214795, y: 1.3811638, z: 0}
 >>>>>>> parent of 18ad66d (Transição Update)
@@ -1998,6 +2002,7 @@ PrefabInstance:
     m_AddedGameObjects: []
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 420219388207203715, guid: deba3381532bb184ea4f5b3cbb6a3690, type: 3}
       insertIndex: -1
@@ -2006,6 +2011,9 @@ PrefabInstance:
 
       addedObject: {fileID: 1397165374768452490}
 
+=======
+    m_AddedComponents: []
+>>>>>>> parent of 18ad66d (Transição Update)
 =======
     m_AddedComponents: []
 >>>>>>> parent of 18ad66d (Transição Update)
