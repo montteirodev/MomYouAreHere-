@@ -6,7 +6,7 @@ public class menuInicial : MonoBehaviour
     
     public void Iniciar()
     {
-        SceneManager.LoadScene("Cutscene1");
+        SceneManager.LoadScene("Quarto1");
     }
 
     public void Controles()

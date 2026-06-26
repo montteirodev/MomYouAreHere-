@@ -1746,6 +1746,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5577414029510885694, guid: c76770ebcf856954eb36fc2179e15d5a, type: 3}
+      propertyPath: telaPreta
+      value: 
+      objectReference: {fileID: 112204667}
+    - target: {fileID: 5577414029510885694, guid: c76770ebcf856954eb36fc2179e15d5a, type: 3}
       propertyPath: nomeDaCena
       value: Banheiro1
       objectReference: {fileID: 0}
