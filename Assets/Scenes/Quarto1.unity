@@ -2129,7 +2129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7553251659186472412, guid: f80164bb8a15a0246937d4b56302ba18, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2691,7 +2691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8102983295161189744, guid: 03b1a5168c94ddb4785837f1179619cc, type: 3}
       propertyPath: m_Intensity
-      value: 0.05
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8399362865777110114, guid: 03b1a5168c94ddb4785837f1179619cc, type: 3}
       propertyPath: m_Name

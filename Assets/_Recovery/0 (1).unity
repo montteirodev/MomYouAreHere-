@@ -407,6 +407,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299842240}
   m_CullTransparentMesh: 1
+--- !u!114 &416645731 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8102983295161189744, guid: 03b1a5168c94ddb4785837f1179619cc, type: 3}
+  m_PrefabInstance: {fileID: 1983728741}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Light2D
 --- !u!224 &477167824 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5473683710618412569, guid: f85aa3602b4497c4699f6cb07621fa5b, type: 3}
@@ -873,6 +884,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1026321174}
   - component: {fileID: 1026321173}
+  - component: {fileID: 1026321175}
   m_Layer: 0
   m_Name: GerenciamentoMenu
   m_TagString: Untagged
@@ -909,6 +921,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1026321175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026321172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 462d2c073f8ca804aa4e784e0544bc9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LuzInicial
+  luz: {fileID: 416645731}
 --- !u!1 &1250951938
 GameObject:
   m_ObjectHideFlags: 0
