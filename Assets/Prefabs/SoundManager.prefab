@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 181391371376096061}
-  - component: {fileID: 2621443423005265718}
   - component: {fileID: 6545192252840741201}
   m_Layer: 0
   m_Name: SoundManager
@@ -33,20 +32,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2621443423005265718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 895401859130192407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f0fa9abc02e4b8428b091931ae3c967, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Som
-  somAmbiente: {fileID: 8300000, guid: 3e6f74bf4b5482a4bb4fb611548e16a8, type: 3}
-  ligarSom: 1
 --- !u!82 &6545192252840741201
 AudioSource:
   m_ObjectHideFlags: 0
@@ -59,10 +44,10 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

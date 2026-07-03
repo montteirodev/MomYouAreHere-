@@ -1,12 +1,19 @@
 using UnityEngine;
 
+
 public class Interacao : MonoBehaviour
 {
     public KeyCode interacaoTecla = KeyCode.G;
     public bool jogadorNaArea;
+    public Sprite ItemIcone;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created  
-
+    private void Start()
+    {
+        if (jogadorNaArea && Input.GetKeyDown(interacaoTecla))
+        {
+            Interagi();
+        }
+    }
     private void OnTriggerEnter2D(Collider2D other)
     { //detecta quando o jogador entra na area
         if (other.CompareTag("Player"))
@@ -27,10 +34,18 @@ public class Interacao : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+    }
+
+    void Interagi()
+    {
         if (jogadorNaArea && Input.GetKeyDown(interacaoTecla))
         {
             Debug.Log("Interagiu com o item!");
             Destroy(gameObject); // Remove o item da cena ap�s a interacao
+
         }
     }
+
+
 }

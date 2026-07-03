@@ -1,14 +1,13 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GerenciaInventario : MonoBehaviour
 {
     public GameObject InventarioPainel;
 
-    private static GerenciaInventario instancia;
+    
 
     private bool InventarioAtivo = false;
-
-
 
 
     void Update()
