@@ -36,7 +36,7 @@ public class InventarioUI : MonoBehaviour
                 slots[i].sprite = spriteDoItem;
                 slots[i].color = Color.white;
 
-                Debug.Log("Item colocado no slot 0" + i);
+                Debug.Log("Item colocado no slot " + i);
                 return;
             }
         }
