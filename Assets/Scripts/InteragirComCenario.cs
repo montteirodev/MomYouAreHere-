@@ -8,7 +8,7 @@ public class InteragirComCenario : MonoBehaviour
 
     public string IdDaPorta;
     public KeyCode interacaoTecla = KeyCode.E; // troca de tecla no inspetor sem precisar mudar o codigo
-    private bool jogadorNaArea; //controla se o jogador ta na range da porta
+    public bool jogadorNaArea; //controla se o jogador ta na range da porta
     public GameObject telaPreta;
     public string nomeDaCena;
 
