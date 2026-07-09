@@ -12,7 +12,7 @@ public class InventarioUI : MonoBehaviour
     }
 
     void Awake()
-    {
+      {
         if (instance == null)
         {
             instance = this;
